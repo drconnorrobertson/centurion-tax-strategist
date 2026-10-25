@@ -1,4 +1,4 @@
 {
   "outputDirectory": "dist",
-  "buildCommand": "node scripts/prepare-static.mjs && node scripts/brand-check.mjs dist"
+  "buildCommand": "node scripts/prepare-static.mjs && node scripts/brand-check.mjs dist && node scripts/practical-homepage.cjs dist && node scripts/brand-check.mjs dist"
 }
