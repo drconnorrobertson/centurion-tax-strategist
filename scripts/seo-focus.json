@@ -1,0 +1,18 @@
+{
+  "title": "Business Owner Tax Strategy & Lookback | Centurion",
+  "description": "Explore Centurion business owner tax strategy, prior-year review and service scope. Prepare records and questions for an advisory conversation.",
+  "heading": "Prepare the business-owner review",
+  "intro": "Understand the prior-year review and the proposed service scope before discussing implementation.",
+  "links": [
+    {
+      "href": "/3-year-tax-lookback/",
+      "label": "Understand the tax lookback"
+    },
+    {
+      "href": "/services/",
+      "label": "Review the advisory services"
+    }
+  ],
+  "buildCommand": "node scripts/prepare-static.mjs && node scripts/brand-check.mjs dist && node scripts/practical-homepage.cjs dist && node scripts/brand-check.mjs dist",
+  "outputDirectory": "dist"
+}
