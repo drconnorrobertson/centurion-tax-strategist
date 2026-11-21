@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://centuriontaxstrategist.com/sitemap.xml
+Sitemap: https://centuriontaxstrategists.com/sitemap.xml
