@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 # CONFIGURATION
 # =============================================================================
 
-SITE_URL = "https://centuriontaxstrategist.com"
+SITE_URL = "https://centuriontaxstrategists.com"
 SITE_NAME = "Centurion Tax Strategist"
 SITE_TAGLINE = "Tax Advisory for High Net Worth Business Owners"
 PHONE = "(888) 901-2345"
@@ -904,8 +904,6 @@ def get_footer():
             </div>
             <div class="footer-bottom">
                 &copy; {datetime.now().year} Centurion Tax Strategist. All rights reserved.
-                &nbsp;|&nbsp; <a href="/privacy/">Privacy</a>
-                &nbsp;|&nbsp; <a href="/terms/">Terms</a>
             </div>
         </div>
     </footer>
@@ -916,7 +914,7 @@ def get_cta_banner():
     <section class="cta-banner">
         <div class="container">
             <h2>Ready to Protect Your Wealth?</h2>
-            <p>Schedule a complimentary strategy session with one of our tax strategists. We will review your situation and show you exactly where you are leaving money on the table.</p>
+            <p>Schedule a complimentary strategy session with one of our tax strategists. Discuss your situation, supporting records and potential planning questions. An engagement and its scope must be agreed separately; no tax result is promised.</p>
             <a href="/book-strategy-call/" class="hero-cta">Book Your Strategy Call</a>
         </div>
     </section>
@@ -1055,7 +1053,7 @@ def build_homepage():
                 <div class="card">
                     <div class="card-icon">&#128737;</div>
                     <h3>Future-Proof Your Strategy</h3>
-                    <p>Beyond recovering past losses, we build a forward-looking tax plan that ensures you never overpay again. Entity restructuring, retirement optimization, and more.</p>
+                    <p>Beyond recovering past losses, we build a forward-looking planning agenda with records, assumptions and implementation responsibilities to review. No particular tax outcome is guaranteed. Entity restructuring, retirement optimization, and more.</p>
                 </div>
             </div>
             <div style="text-align:center;margin-top:40px;">
@@ -1101,7 +1099,7 @@ def build_homepage():
             <div class="grid-3">
                 <div class="card">
                     <h3>Cost Segregation</h3>
-                    <p>Accelerate depreciation on your properties and unlock six-figure tax savings in year one.</p>
+                    <p>Review property classifications, deduction timing, study costs and whether deductions can actually be used.</p>
                     <a href="/cost-segregation/" class="card-link">Learn More &rarr;</a>
                 </div>
                 <div class="card">
@@ -1116,7 +1114,7 @@ def build_homepage():
                 </div>
                 <div class="card">
                     <h3>REPS Qualification</h3>
-                    <p>Qualify as a Real Estate Professional to unlock unlimited passive loss deductions against active income.</p>
+                    <p>Evaluate real-estate-professional eligibility and material participation before modeling whether rental losses can offset other income.</p>
                     <a href="/real-estate-professional-status/" class="card-link">Learn More &rarr;</a>
                 </div>
                 <div class="card">
@@ -1258,7 +1256,7 @@ def build_services():
                 <div class="card">
                     <div class="card-icon">&#128200;</div>
                     <h3>Real Estate Professional Status</h3>
-                    <p>REPS qualification unlocks unlimited passive loss deductions. We help you qualify and document your hours for IRS compliance.</p>
+                    <p>Review real-estate-professional eligibility, material participation and activity records. Qualification alone does not make every rental loss usable.</p>
                     <a href="/real-estate-professional-status/" class="card-link">Learn More &rarr;</a>
                 </div>
                 <div class="card">
@@ -1343,7 +1341,7 @@ SERVICE_PAGES = [
             <p><strong>Step 2 - Line-by-Line Review:</strong> Our team reviews every schedule, every entity return, and every supporting document. We cross-reference against IRC sections that apply to your specific situation.</p>
             <p><strong>Step 3 - Findings Report:</strong> You receive a detailed report listing every identified recovery, the IRC basis for each claim, and the projected dollar value.</p>
             <p><strong>Step 4 - Amended Returns:</strong> With your approval, we prepare and file amended federal and state returns for each applicable year.</p>
-            <p><strong>Step 5 - Forward Strategy:</strong> Every lookback engagement includes a forward-looking tax plan so you never overpay again.</p>
+            <p><strong>Step 5 - Forward Strategy:</strong> The review can also inform forward-looking planning. Confirm the agreed scope, supporting facts and implementation responsibilities; no review guarantees a particular tax outcome.</p>
 
             <h2>Typical Savings by Client Type</h2>
             <ul>
@@ -1456,33 +1454,33 @@ SERVICE_PAGES = [
     {
         "slug": "real-estate-professional-status",
         "title": "Real Estate Professional Status (REPS) | Centurion Tax Strategist",
-        "meta": "Qualify as a Real Estate Professional to unlock unlimited passive loss deductions against active income. Expert REPS guidance for high-income investors.",
+        "meta": "Evaluate real-estate-professional eligibility and material participation before modeling whether rental losses can offset other income. Expert REPS guidance for high-income investors.",
         "h1": "Real Estate Professional Status",
-        "subtitle": "REPS qualification unlocks the ability to deduct unlimited real estate losses against active income, including W-2 and business earnings.",
+        "subtitle": "Real-estate-professional qualification and material participation need separate review. Eligible rental losses may be nonpassive, but other loss limits can still apply.",
         "content": """
             <h2>What Is Real Estate Professional Status?</h2>
-            <p>Under IRC Section 469(c)(7), taxpayers who qualify as Real Estate Professionals can treat their rental real estate activities as non-passive. This means rental losses, including depreciation and cost segregation deductions, can offset active income without the $25,000 passive loss limitation.</p>
-            <p>For high-income real estate investors, REPS is one of the most valuable designations in the tax code. It turns real estate investments into powerful active tax shelters.</p>
+            <p>Rental real estate activities in which a qualifying real estate professional materially participates may be nonpassive. Qualification alone does not establish material participation in every rental. Basis, at-risk and excess-business-loss limits, as applicable, still require review; a large depreciation deduction is not an automatic wage offset.</p>
+            <p>Start with the actual work performed, activity groupings and prior carryforwards. A job title, property purchase or study report does not establish the required facts.</p>
 
             <h2>Qualification Requirements</h2>
             <p>To qualify as a Real Estate Professional, you must meet two tests:</p>
             <ul>
                 <li><strong>750-Hour Test:</strong> You must spend more than 750 hours during the tax year in real property trades or businesses in which you materially participate.</li>
-                <li><strong>More-Than-Half Test:</strong> More than half of the personal services you perform during the tax year must be in real property trades or businesses.</li>
+                <li><strong>More-Than-Half Test:</strong> More than half of the personal services you perform in all trades or businesses during the tax year must be in real property trades or businesses in which you materially participate.</li>
             </ul>
 
             <div class="highlight-box">
                 <p><strong>Important:</strong> If you have a full-time W-2 job requiring 2,000+ hours per year, it is very difficult to meet the more-than-half test. REPS is most commonly used by spouses who manage real estate full-time or by business owners who can restructure their time allocation.</p>
             </div>
 
-            <h2>How We Help</h2>
+            <h2>Records and primary guidance</h2><p>Qualification, material participation, grouping and prior carryforwards require separate review. Consult <a href="https://www.irs.gov/publications/p925">IRS Publication 925</a> and retain the actual activity records before relying on a proposed loss offset.</p><h2>How We Help</h2>
             <ul>
                 <li>Evaluate your time allocation across all activities to determine REPS eligibility</li>
                 <li>Structure your real estate activities to satisfy material participation</li>
                 <li>Set up contemporaneous hour tracking systems</li>
-                <li>Make the election to aggregate rental activities under IRC Section 469(c)(7)(A)</li>
-                <li>Combine REPS with cost segregation to maximize first-year losses</li>
-                <li>Prepare documentation that withstands IRS audit</li>
+                <li>Evaluate whether an election to treat rental real estate interests as one activity is appropriate; document the election and its continuing effects</li>
+                <li>Model deduction eligibility, timing and usability alongside study and implementation costs</li>
+                <li>Retain the supporting records and address questions or inconsistencies before filing</li>
             </ul>
         """
     },
